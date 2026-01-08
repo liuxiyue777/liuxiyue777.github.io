@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>柳喜悦的博客</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="nav-logo"> 柳喜悦的博客</h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">首页</a></li>
+                <li class="nav-item"><a href="#hobbies" class="nav-link">我的爱好</a></li>
+                <li class="nav-item"><a href="#school" class="nav-link">我的学校</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">联系方式</a></li>
+                <li class="nav-item"><a href="#message" class="nav-link">留言板</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 第一页：首页 -->
+    <section id="home" class="section home-section">
+        <div class="container">
+            <div class="profile-card">
+                <div class="profile-avatar">
+                    <img src="tx.jpg" alt="柳喜悦">
+                </div>
+                <h2 class="profile-name">柳喜悦</h2>
+                <p class="profile-info">重庆安防职业学院</p>
+                <p class="profile-major">人工智能技术应用</p>
+                <div class="profile-resume">
+                    <h3>个人简历</h3>
+                    <p>我是重庆安防职业学院人工智能专业大一学生，刚接触Web前端开发半年，通过网课和教材自学了HTML和CSS基础，能独立完成静态页面的布局和样式设计。目前正在学习JavaScript基础，希望能逐步掌握交互开发，未来想成为一名能做出炫酷效果的前端工程师，也期待能和更多同好交流学习。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第二页：我的爱好 -->
+    <section id="hobbies" class="section hobbies-section">
+        <div class="container">
+            <h2 class="section-title">🎀 我的爱好</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-item">
+                    <div class="hobby-image">
+                        <img src="音乐.jpg" alt="听音乐">
+                    </div>
+                    <h3 class="hobby-title">听音乐</h3>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-image">
+                        <img src="美食.jpg" alt="吃美食">
+                    </div>
+                    <h3 class="hobby-title">吃美食</h3>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-image">
+                        <img src="电视剧.jpg" alt="看电视剧">
+                    </div>
+                    <h3 class="hobby-title">看电视剧</h3>
+                </div>
+                <div class="hobby-item">
+                    <div class="hobby-image">
+                        <img src="游戏.jpg" alt="玩游戏">
+                    </div>
+                    <h3 class="hobby-title">玩游戏</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第三页：我的学校 -->
+    <section id="school" class="section school-section">
+        <div class="container">
+            <h2 class="section-title">🏫 我的学校</h2>
+            <div class="school-content">
+                <div class="school-image">
+                    <img src="学校.jpg" alt="重庆安防职业学院">
+                </div>
+                <div class="school-description">
+                    <p>重庆安防职业学院是一所专注于安防领域的高等职业院校，致力于培养高素质的安防技术人才。学校拥有现代化的教学设施和优秀的师资力量，为学生提供良好的学习环境和实践机会。学校注重学生的综合素质培养，积极开展各类校园活动，丰富学生的课余生活。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第四页：联系方式 -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">📞 联系方式</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-label">电话号码：</span>
+                    <span class="contact-value">18225175211</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-label">电子邮箱：</span>
+                    <span class="contact-value">3477470048@qq.com</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 第五页：留言板 -->
+    <section id="message" class="section message-section">
+        <div class="container">
+            <h2 class="section-title">💬 留言板</h2>
+            <form class="message-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">姓名：</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="请输入您的姓名">
+                </div>
+                <div class="form-group">
+                    <label for="gender" class="form-label">性别：</label>
+                    <select id="gender" name="gender" class="form-input">
+                        <option value="">请选择</option>
+                        <option value="male">男</option>
+                        <option value="female">女</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="form-label">手机号：</label>
+                    <input type="tel" id="phone" name="phone" class="form-input" placeholder="请输入您的手机号">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="form-label">电子邮箱：</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="请输入您的电子邮箱">
+                </div>
+                <div class="form-group">
+                    <label for="content" class="form-label">留言内容：</label>
+                    <textarea id="content" name="content" class="form-textarea" rows="5" placeholder="请输入您的留言内容"></textarea>
+                </div>
+                <button type="submit" class="form-button">提交留言</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
